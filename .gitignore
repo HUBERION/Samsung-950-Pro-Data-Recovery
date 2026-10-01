@@ -1,0 +1,17 @@
+# Your own configuration: it names your folders and files - keep it private.
+rescue-config.psd1
+
+# Private material that belongs to one rescue (old script versions, notes, keys).
+private/
+
+# Local tool settings.
+.claude/
+
+# Never publish BitLocker recovery passwords, key or password files.
+*recovery*.txt
+*.bek
+*.pwd
+
+# Rescue targets, logs and state, in case a test or rescue points into this folder.
+*.log
+_state/
